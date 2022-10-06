@@ -5,21 +5,18 @@ File Name: styles.css
 */
 
 /* CSS Reset */
-
 body, header, nav, main, footer, img, h1 {
   margin: 0;
-  padding: 0;
+  padding:0;
   border: 0;
 }
 
-
 /*Style rule for body*/
-
-
 body {
   background-color: #f6eee4;
 
 }
+
 /* Style rule for image */
 
 img{
@@ -31,11 +28,10 @@ img{
 
 
 /* Style rules to show mobile class and hide tab-desk class*/
-#mobile selectors {
+.mobile {
   display: block;
-
-
 }
+
 .tab-desk {
   display: none;
 }
